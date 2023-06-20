@@ -2,7 +2,7 @@
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
+	
 
 	public MainPage()
 	{
@@ -11,14 +11,18 @@ public partial class MainPage : ContentPage
 
 	private void OnCounterClicked(object sender, EventArgs e)
 	{
-		count++;
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
 
-		SemanticScreenReader.Announce(CounterBtn.Text);
+		if (InputText.Text == null)
+		{
+			Label1.Text = "Você não digitou nada no campo de texto acima";
+		}
+		else 
+		{
+			Label1.Text = $"Você digitou '{InputText.Text}' no campo acima";
+		}
+
+        SemanticScreenReader.Announce(CounterBtn.Text);
 	}
 }
 

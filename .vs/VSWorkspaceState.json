@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Maui-Teste",
+    "\\Maui-Teste\\Maui-Teste",
+    "\\Maui-Teste\\Maui-Teste\\Platforms",
+    "\\Maui-Teste\\Maui-Teste\\Platforms\\Windows"
   ],
-  "SelectedNode": "\\C:\\Users\\lukhas.furtado\\Source\\Repos\\Maui-Teste",
+  "SelectedNode": "\\Maui-Teste\\Maui-Teste.sln",
   "PreviewInSolutionExplorer": false
 }

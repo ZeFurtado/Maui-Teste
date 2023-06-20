@@ -9,6 +9,13 @@
             Padding="30,0"
             VerticalOptions="Center">
 
+            <Entry
+                x:Name="InputText"
+                HorizontalOptions="Center"
+                IsPassword="True"
+                WidthRequest="200"
+                />
+
             <Image
                 Source="dotnet_bot.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
@@ -16,12 +23,13 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Hello, World!"
+                Text="List View Teste!"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
 
             <Label
+                x:Name="Label1"
                 Text="Welcome to .NET Multi-platform App UI"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I"
@@ -30,10 +38,11 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="Click me"
+                Text="Clica aqui seu merda"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                BackgroundColor="Aqua"/>
 
         </VerticalStackLayout>
     </ScrollView>
